@@ -59,3 +59,5 @@ var playGame = function () {
 
 // Run the game for the first time
 playGame();
+
+// function special character = [" ", '"', "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"];

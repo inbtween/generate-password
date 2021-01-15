@@ -12,12 +12,6 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-var length = prompt("Choose password length");
-// console.log(length);
-
-var string = prompt("abcdefghijklmnopqrstuvwxyz");
-return string;
-
 function generatePassword(len) {
   var length = len ? len : 10;
   var string = "abcdefghijklmnopqrstuvwxyz"; //to upper
@@ -45,6 +39,9 @@ function generatePassword(len) {
     .join("");
   return password.substr(0, len);
 }
+
+var length = prompt("Choose password length");
+console.log(length);
 
 // Run the password for the first time
 // generatePassword();
