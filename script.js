@@ -93,4 +93,7 @@ if (permittedNumbers) {
 for (var i = 0; 1 < characterLength; i++) {
   var randomIndex = Math.floor(Math.random() * permittedCharacters.length);
   console.log(permittedCharacters[randomIndex]);
+  response += permittedCharacters[randomIndex];
+  console.log(response);
 }
+return response;
