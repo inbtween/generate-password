@@ -41,14 +41,14 @@ function generatePassword() {
 
   var permittedCharacters = [];
   if (numbersPermitted) {
-    permittedCharacters = numbersPermitted.concat(permittedCharacters);
+    permittedCharacters = numbers.concat(permittedCharacters);
     console.log(permittedCharacters);
   }
   if (upperCasePermitted) {
-    permittedCharacters = upperCasePermitted.concat(permittedCharacters);
+    permittedCharacters = upperCase.concat(permittedCharacters);
   }
   if (lowerCasePermitted) {
-    permittedCharacters += lowerCasePermitted.concat(permittedCharacters);
+    permittedCharacters += lowerCase.concat(permittedCharacters);
   }
   if (specialCharactersPermitted) {
     permittedCharacters = specialCharacters.concat(permittedCharacters);
